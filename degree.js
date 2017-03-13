@@ -9,12 +9,17 @@ let A = Matrix([
 ]);
 //Code here
 function degree(mtrx,v){
-let sum = 0;
-let degreelist = matirix(v-1);
-for(x=0;x<degreelist.length;x=++)
+let sum = 0
+let degreelist = mtrx(v-1);
+for(x=0;x<degreelist.length;++){
+  sum = sum + degreelist[x];
 }
-function degreecentrality(){
+return sum;
+}
 
+function degreecentrality(){
+let neighbor = mtrx.size().pop(0) - 1;
+return degree(mtrx,v)/neighbor;
 }
 
 //Challenge
